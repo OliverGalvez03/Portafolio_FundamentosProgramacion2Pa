@@ -1,0 +1,2 @@
+# Portafolio_FundamentosProgramacion2Pa
+Segunda Parcial
