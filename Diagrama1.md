@@ -9,7 +9,9 @@ Se encesita imprimir la suma de los numeros del 1 al 10, para esto se ocupa de u
 ![Alt](https://gyazo.com/b9b88406261928de4e7d6a994e806106.png)
 
 #### 1.3 Prueba de escritorio
-![Alt](https://gyazo.com/8372e004bd096e4e997f5e1125f1ee7c.png]
+![Alt](https://gyazo.com/8372e004bd096e4e997f5e1125f1ee7c.png)
+![Alt](https://gyazo.com/e79199e9f19d232b21353422fba9c75d.png)
+![Alt](https://gyazo.com/a75dae09bd30daecc3981add768d67d5.png)
 
 #### 1.4 Entradas
 Ninguna
