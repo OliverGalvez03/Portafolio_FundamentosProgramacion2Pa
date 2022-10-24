@@ -15,7 +15,7 @@ Se encesita imprimir la suma de los numeros del 1 al 10, para esto se ocupa de u
 
 ### 1.4 Codigo
 #### For
- ```
+ ```dart
  void main(List<String> args) {
   int s = 0;
   for (var i = 1; i <= 10; i++) {
@@ -25,7 +25,7 @@ Se encesita imprimir la suma de los numeros del 1 al 10, para esto se ocupa de u
 }
 ```
 #### While
-```
+```dart
 void main(List<String> args) {
   int s = 0, c = 1;
 
@@ -37,7 +37,7 @@ void main(List<String> args) {
 }
 ```
 #### DoWhile
-```
+```dart
 void main(List<String> args) {
   int s = 0, c = 1;
 
