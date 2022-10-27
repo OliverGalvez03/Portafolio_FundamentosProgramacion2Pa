@@ -8,3 +8,70 @@ Se necesita almacenar los numeros pares capturados, iniciando con un cuadro de p
 ### Prueba de escritorio
 ![](https://gyazo.com/4e431edef09140f14956281576886ce7.png)
 ### Codigo 
+```dart
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var array = [];
+
+  for (var i = 0; i <= 10; i++) {
+    int n = int.parse(stdin.readLineSync()!);
+    if (n % 2 == 0) {
+      array.add(n);
+      i = i - 1;
+    }
+  }
+  print(array);
+}
+
+```
+## While
+### Diagrama
+![](https://gyazo.com/194aeb8a5b786cc74967efc5d4490cf0.png)
+### Prueba de escritorio
+![](https://gyazo.com/8a94969c9e2baa2ca94df7e1d762f6bc.png)
+### Codigo
+```dart
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var array = [];
+  var c = 0;
+
+  while (c <= 10) {
+    int n = int.parse(stdin.readLineSync()!);
+    c = c + 1;
+    if (n % 2 == 0) {
+      array.add(n);
+      c = c - 1;
+    }
+  }
+  print(array);
+}
+```
+## DoWhile
+### Diagrama
+![While](https://gyazo.com/16574f4b31b9d232202e308518499881.png)
+### Prueba de escritorio
+![](https://gyazo.com/d2ad005152ac3d04a62f60151c5e5cc3.png)
+### Codigo
+```dart
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var array = [];
+  var c = 0;
+  do {
+    int n = int.parse(stdin.readLineSync()!);
+
+    if (n % 2 == 0) {
+      array.add(n);
+      c = c + 1;
+    }
+  } while (c <= 9);
+  print(array);
+}
+```
