@@ -54,6 +54,7 @@ void main() {
 ### Prueba de escritorio
 ![](https://gyazo.com/248565e2fb8931333b38218e312490d9.png)
 ### Codigo
+```dart
 import 'dart:io';
 import 'dart:async';
 
@@ -95,6 +96,7 @@ void main() {
   print('la calificacion mas alta es $cal2');
   print('la cantidad de reprobados son $contr');
 }
+```
 ## DoWhile
 ### Diagrama
 ![](https://gyazo.com/2ce3d5e70993e08549447995c26aa22b.png)
@@ -143,4 +145,3 @@ void main() {
   print('la cantidad de reprobados son $contr');
 }
 ```
-
